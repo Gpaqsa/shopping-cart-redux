@@ -6,10 +6,18 @@ import productsData from '../data/productsData.js'
 
 const Body = () => {
   return (
-    <section className='home' id='home'>
-      <ProductsCard productsData={ productsData } />
-    </section>
+    <>
+      <section id="home">
+        <div className="container">
+          <div className="home_content">
+            {productsData.map((item) => (
+              <ProductsCard key={item.id} {...item} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
   );
-}
+};
 
 export default Body
