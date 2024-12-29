@@ -6,12 +6,12 @@ const Footer = () => {
       <footer id="footer">
         <div className="container">
           <a
-            href="https://github.com/gulshancodes/redux-shopping-cart"
+            href="https://github.com/Gpaqsa/shopping-cart-redux.git"
             className="repo_link"
             target="_blank"
             rel="noreferrer"
           >
-            github.com/gulshancodes/redux-shopping-cart
+            github.com/Gpaqsa/shopping-cart-redux
           </a>
 
           <p>
@@ -21,7 +21,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Gulshan Songara
+              Giorgi paksashvili
             </a>
           </p>
         </div>
