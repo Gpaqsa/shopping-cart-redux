@@ -14,16 +14,7 @@ const Footer = () => {
             github.com/Gpaqsa/shopping-cart-redux
           </a>
 
-          <p>
-            Built by | &nbsp;
-            <a
-              href="https://gulshansongara.netlify.app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Giorgi paksashvili
-            </a>
-          </p>
+          <p>Built by | &nbsp; Giorgi paksashvili</p>
         </div>
       </footer>
     </>
